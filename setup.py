@@ -14,12 +14,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='yony',
-    maintainer_email='4yony4@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='jonathan.barmagen@iit.it',
+    description='SIM and SEM packages for the APRIL project. It includes a Dummy object to simulate signals.',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'talker = april_ros2.dummy:main',
+            'listener = april_ros2.sim:main',
         ],
     },
 )
