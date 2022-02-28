@@ -43,4 +43,8 @@ rqt
 ```
 Then select Plugins > Services > Service Caller from the menu bar at the top.
 
+![rqt icon][rqt]
+
+
+
 [rqt]: https://docs.ros.org/en/dashing/_images/rqt.png
