@@ -4,7 +4,7 @@ package_name = 'april_ros2'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = april_ros2.dummy:main',
-            'listener = april_ros2.sim:main',
+            'dummy = april_ros2.dummy:main',
+            'sim = april_ros2.sim:main',
+            'sem = april_ros2.sem:main',
         ],
     },
 )
