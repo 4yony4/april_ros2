@@ -31,7 +31,7 @@ class Dummy_Publisher_All(Node):
     def publishData(self):
         while True:
             delay = random.uniform(0, 1)
-            print("Sleep " + str(delay) + "s")
+            #print("Sleep " + str(delay) + "s")
             msg = String()
             ##msg.data = 'GRASP: %d' % self.i
             #print(self.topicMsg())

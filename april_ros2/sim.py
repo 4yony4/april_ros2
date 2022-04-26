@@ -13,7 +13,7 @@ class SIM(Node):
         super().__init__('sim')
         self.subscription = self.create_subscription(
             String,
-            'topic2',
+            'dummy_topic',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warninge
