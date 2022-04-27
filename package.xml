@@ -4,7 +4,7 @@
   <name>april_ros2</name>
   <version>0.0.1</version>
   <description>TODO: Package description</description>
-  <maintainer email="jonathan.barmagen@iit.it">yony</maintainer>
+  <maintainer email="jonathan.barmagen@iit.it">YonY</maintainer>
   <license>TODO: License declaration</license>
 
   <exec_depend>rclpy</exec_depend>
