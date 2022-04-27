@@ -11,12 +11,36 @@ class SIM(Node):
 
     def __init__(self):
         super().__init__('sim')
-        self.subscription = self.create_subscription(
+        self.subscription_grasp = self.create_subscription(
             String,
-            'dummy_topic',
+            'grasp_topic',
             self.listener_callback,
             10)
-        self.subscription  # prevent unused variable warninge
+        self.subscription_fa = self.create_subscription(
+            String,
+            'fa_topic',
+            self.listener_callback,
+            10)
+        self.subscription_hb = self.create_subscription(
+            String,
+            'hb_topic',
+            self.listener_callback,
+            10)
+        self.subscription_nc = self.create_subscription(
+            String,
+            'nc_topic',
+            self.listener_callback,
+            10)
+        self.subscription_nv = self.create_subscription(
+            String,
+            'nv_topic',
+            self.listener_callback,
+            10)
+        self.subscription_grasp 
+        self.subscription_fa
+        self.subscription_hb
+        self.subscription_nc
+        self.subscription_nv
 
     def listener_callback(self, msg):
         self.get_logger().info('I heard: "%s"' % msg.data)
