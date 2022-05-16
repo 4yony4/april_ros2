@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from matplotlib import rc
 import rclpy
 import random
@@ -8,15 +10,15 @@ from std_msgs.msg import String
 from std_msgs.msg import Float32MultiArray
 
 
-class Dummy_Publisher_NV(Node):
+class Dummy_Publisher_NC(Node):
 
     def __init__(self):
-        super().__init__('nv_strategies')
+        super().__init__('nc_strategies')
 
-        self.publisher_ = self.create_publisher(String, 'nv_topic', 10)
+        self.publisher_ = self.create_publisher(String, 'nc_topic', 10)
         self.i = 0
-        self.timeMin=5
-        self.timeMax=10
+        self.timeMin=0.1
+        self.timeMax=0.5
         self.publishData()
 
 
@@ -27,7 +29,7 @@ class Dummy_Publisher_NV(Node):
             msg = String()
             ##msg.data = 'GRASP: %d' % self.i
             #print(self.topicMsg())
-            msg.data=('NONVERBAL COMMUNICATION: %d' % self.i)
+            msg.data=('NEUROMORPHIC CAMERA: %d' % self.i)
             self.publisher_.publish(msg)
             #self.get_logger().info('Publishing: "%s"' % msg.data)
             self.i += 1
@@ -35,9 +37,10 @@ class Dummy_Publisher_NV(Node):
             
 
         
+        
 def main(args=None):
     rclpy.init(args=args)
-    dummy=Dummy_Publisher_NV()
+    dummy=Dummy_Publisher_NC()
     rclpy.spin(dummy)
     dummy.destroy_node()
 
