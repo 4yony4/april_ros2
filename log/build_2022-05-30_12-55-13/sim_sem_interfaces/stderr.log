@@ -1,0 +1,55 @@
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.h:19[m[K,
+                 from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.c:4[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/physical_object__struct.h: No such file or directory
+   24 | #include [01;31m[K"std_msgs/msg/detail/physical_object__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/build.make:453: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.h:19[m[K,
+                 from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.c:4[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/human_grasping_strategies__struct.h: No such file or directory
+   24 | #include [01;31m[K"std_msgs/msg/detail/human_grasping_strategies__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/build.make:481: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_cpp/sim_sem_interfaces/msg/environment__type_support.cpp:7[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/environment__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/physical_object__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"std_msgs/msg/detail/physical_object__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/build.make:218: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/environment__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_cpp/sim_sem_interfaces/msg/human_behaviour__type_support.cpp:7[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/human_behaviour__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/human_grasping_strategies__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"std_msgs/msg/detail/human_grasping_strategies__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/build.make:246: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/human_behaviour__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/environment__type_support.cpp:12[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/environment__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/physical_object__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"std_msgs/msg/detail/physical_object__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:277: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/environment__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/human_behaviour__type_support.cpp:12[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/human_behaviour__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/human_grasping_strategies__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"std_msgs/msg/detail/human_grasping_strategies__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:305: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/human_behaviour__type_support.cpp.o] Error 1
+In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/environment__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/environment__type_support.cpp:4[m[K:
+[01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/environment__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/physical_object__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"std_msgs/msg/detail/physical_object__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:277: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/environment__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

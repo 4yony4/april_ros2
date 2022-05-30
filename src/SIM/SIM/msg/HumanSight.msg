@@ -1,1 +1,0 @@
-string sight_direction

@@ -1,0 +1,4 @@
+Invoking command in '/home/yony/Dev/ros2_ws/build/sim_sem_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yony/Dev/ros2_ws/src/sim_sem_interfaces -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/sim_sem_interfaces
+Invoked command in '/home/yony/Dev/ros2_ws/build/sim_sem_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yony/Dev/ros2_ws/src/sim_sem_interfaces -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/sim_sem_interfaces
+Invoking command in '/home/yony/Dev/ros2_ws/build/sim_sem_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yony/Dev/ros2_ws/build/sim_sem_interfaces -- -j12 -l12
+Invoked command in '/home/yony/Dev/ros2_ws/build/sim_sem_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yony/Dev/ros2_ws/build/sim_sem_interfaces -- -j12 -l12

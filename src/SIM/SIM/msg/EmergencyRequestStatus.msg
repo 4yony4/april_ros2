@@ -1,2 +1,0 @@
-string request_progress
-string request_result

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sim_sem_interfaces/msg/RobotArm.msg
+// generated code does not contain a copyright notice
+
+#include "sim_sem_interfaces/msg/RobotArmKinematic.idl"
+
+module sim_sem_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "std_msgs/Header header")
+    struct RobotArm {
+      string state;
+
+      sequence<sim_sem_interfaces::msg::RobotArmKinematic> robotarmkinematic_list;
+    };
+  };
+};

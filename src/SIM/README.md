@@ -2,8 +2,8 @@
 
 ## Set environmental ROS2
 
-Follow instruction guide of ROS2 GALACTIC at:
-https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Binary.html
+Follow instruction guide of ROS2 HUMBLE at: (Needs Ubuntu 22 to work ())
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 
 After this, you will have a folder with the ROS2 Galactic installed, the rosdep installed, and the dependencies.
 Each time you will want to work with ROS2, you will need to initialize the script as seen:

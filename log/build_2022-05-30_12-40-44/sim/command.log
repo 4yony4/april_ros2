@@ -1,0 +1,2 @@
+Invoking command in '/home/yony/Dev/ros2_ws/build/sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yony/Dev/ros2_ws/src/sim -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/sim
+Invoked command in '/home/yony/Dev/ros2_ws/build/sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yony/Dev/ros2_ws/src/sim -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/sim

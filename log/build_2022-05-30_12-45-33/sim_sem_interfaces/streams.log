@@ -1,0 +1,144 @@
+[0.015s] Invoking command in '/home/yony/Dev/ros2_ws/build/sim_sem_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yony/Dev/ros2_ws/build/sim_sem_interfaces -- -j12 -l12
+[0.075s] [  0%] Built target sim_sem_interfaces__cpp
+[0.080s] [  0%] [32mBuilding C object CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.c.o[0m
+[0.080s] [  0%] [32mBuilding C object CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_arm__functions.c.o[0m
+[0.081s] [  1%] [32mBuilding C object CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.c.o[0m
+[0.082s] [  1%] Built target ament_cmake_python_copy_sim_sem_interfaces
+[0.083s] [  2%] [32mBuilding C object CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_hand__functions.c.o[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target sim_sem_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.093s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.h:19[m[K,
+[0.093s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.c:4[m[K:
+[0.094s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.h: No such file or directory
+[0.094s]    22 | #include [01;31m[K"std_msgs/msg/detail/header__struct.h"[m[K
+[0.094s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.094s] compilation terminated.
+[0.099s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_arm__functions.h:19[m[K,
+[0.099s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_arm__functions.c:4[m[K:
+[0.099s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_arm__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.h: No such file or directory
+[0.099s]    22 | #include [01;31m[K"std_msgs/msg/detail/header__struct.h"[m[K
+[0.099s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.099s] compilation terminated.
+[0.100s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/build.make:547: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_arm__functions.c.o] Error 1
+[0.100s] gmake[2]: *** Waiting for unfinished jobs....
+[0.101s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.h:19[m[K,
+[0.101s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.c:4[m[K:
+[0.102s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.h: No such file or directory
+[0.102s]    22 | #include [01;31m[K"std_msgs/msg/detail/header__struct.h"[m[K
+[0.102s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.102s] compilation terminated.
+[0.102s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_hand__functions.h:19[m[K,
+[0.102s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_hand__functions.c:4[m[K:
+[0.102s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_hand__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.h: No such file or directory
+[0.102s]    22 | #include [01;31m[K"std_msgs/msg/detail/header__struct.h"[m[K
+[0.102s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.102s] compilation terminated.
+[0.103s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/build.make:421: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/environment__functions.c.o] Error 1
+[0.103s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/build.make:589: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/robot_hand__functions.c.o] Error 1
+[0.103s] [  3%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/human_behaviour__type_support.cpp.o[0m
+[0.104s] [  5%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/human_behaviour__type_support.cpp.o[0m
+[0.104s] [  5%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/environment__type_support.cpp.o[0m
+[0.104s] [  6%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_arm__type_support.cpp.o[0m
+[0.104s] [  7%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/robot_arm__type_support.cpp.o[0m
+[0.104s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/build.make:449: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sim_sem_interfaces/msg/detail/human_behaviour__functions.c.o] Error 1
+[0.104s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/sim_sem_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.105s] gmake[1]: *** Waiting for unfinished jobs....
+[0.109s] [  8%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/environment__type_support.cpp.o[0m
+[0.112s] [  8%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/robot_hand__type_support.cpp.o[0m
+[0.113s] [  8%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_arm_kinematic__type_support.cpp.o[0m
+[0.114s] [  9%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_hand__type_support.cpp.o[0m
+[0.118s] [ 10%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_grasping_strategies__type_support.cpp.o[0m
+[0.122s] [ 11%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/environment__type_support.cpp.o[0m
+[0.177s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/human_behaviour__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.177s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/human_behaviour__type_support.cpp:4[m[K:
+[0.178s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/human_behaviour__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.178s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.179s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.179s] compilation terminated.
+[0.182s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:273: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/human_behaviour__type_support.cpp.o] Error 1
+[0.182s] gmake[2]: *** Waiting for unfinished jobs....
+[0.197s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/robot_arm__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.197s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_arm__type_support.cpp:4[m[K:
+[0.197s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/robot_arm__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.198s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.198s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.198s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/environment__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.199s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/environment__type_support.cpp:4[m[K:
+[0.199s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/environment__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.199s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.199s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.199s] compilation terminated.
+[0.200s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_cpp/sim_sem_interfaces/msg/robot_arm__type_support.cpp:7[m[K:
+[0.200s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/robot_arm__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.200s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.200s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.200s] compilation terminated.
+[0.201s] compilation terminated.
+[0.201s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:245: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/environment__type_support.cpp.o] Error 1
+[0.201s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/build.make:312: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/robot_arm__type_support.cpp.o] Error 1
+[0.201s] gmake[2]: *** Waiting for unfinished jobs....
+[0.203s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_cpp/sim_sem_interfaces/msg/environment__type_support.cpp:7[m[K:
+[0.203s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/environment__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.203s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.203s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.204s] compilation terminated.
+[0.204s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:371: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_arm__type_support.cpp.o] Error 1
+[0.204s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/build.make:186: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/environment__type_support.cpp.o] Error 1
+[0.205s] [ 12%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/human_behaviour__type_support.cpp.o[0m
+[0.205s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_cpp/sim_sem_interfaces/msg/human_behaviour__type_support.cpp:7[m[K:
+[0.205s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/human_behaviour__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.206s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.206s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.206s] compilation terminated.
+[0.207s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_cpp/sim_sem_interfaces/msg/robot_hand__type_support.cpp:7[m[K:
+[0.207s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/robot_hand__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.207s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.207s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.207s] compilation terminated.
+[0.207s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/build.make:354: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/robot_hand__type_support.cpp.o] Error 1
+[0.210s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/robot_hand__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.211s]                  from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_hand__type_support.cpp:4[m[K:
+[0.211s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/robot_hand__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.211s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.211s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.211s] compilation terminated.
+[0.211s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/build.make:214: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sim_sem_interfaces/msg/human_behaviour__type_support.cpp.o] Error 1
+[0.212s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[0.212s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:413: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sim_sem_interfaces/msg/detail/dds_fastrtps/robot_hand__type_support.cpp.o] Error 1
+[0.212s] [ 13%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/robot_hand__type_support.cpp.o[0m
+[0.212s] [ 14%] [32mBuilding CXX object CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/robot_arm__type_support.cpp.o[0m
+[0.218s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/environment__type_support.cpp:12[m[K:
+[0.218s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/environment__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.219s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.219s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.219s] compilation terminated.
+[0.220s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:245: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/environment__type_support.cpp.o] Error 1
+[0.220s] gmake[2]: *** Waiting for unfinished jobs....
+[0.273s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/robot_arm__type_support.cpp:12[m[K:
+[0.273s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/robot_arm__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.273s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.273s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.273s] compilation terminated.
+[0.274s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/robot_hand__type_support.cpp:12[m[K:
+[0.274s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/robot_hand__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.274s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.274s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.274s] compilation terminated.
+[0.274s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:371: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/robot_arm__type_support.cpp.o] Error 1
+[0.275s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:413: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/robot_hand__type_support.cpp.o] Error 1
+[0.308s] In file included from [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/human_behaviour__type_support.cpp:12[m[K:
+[0.309s] [01m[K/home/yony/Dev/ros2_ws/build/sim_sem_interfaces/rosidl_generator_cpp/sim_sem_interfaces/msg/detail/human_behaviour__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/header__struct.hpp: No such file or directory
+[0.309s]    20 | #include [01;31m[K"std_msgs/msg/detail/header__struct.hpp"[m[K
+[0.309s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.309s] compilation terminated.
+[0.310s] gmake[2]: *** [CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:273: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sim_sem_interfaces/msg/detail/human_behaviour__type_support.cpp.o] Error 1
+[0.310s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.385s] running egg_info
+[0.385s] writing sim_sem_interfaces.egg-info/PKG-INFO
+[0.386s] writing dependency_links to sim_sem_interfaces.egg-info/dependency_links.txt
+[0.386s] writing top-level names to sim_sem_interfaces.egg-info/top_level.txt
+[0.389s] reading manifest file 'sim_sem_interfaces.egg-info/SOURCES.txt'
+[0.389s] writing manifest file 'sim_sem_interfaces.egg-info/SOURCES.txt'
+[0.417s] [ 14%] Built target ament_cmake_python_build_sim_sem_interfaces_egg
+[0.666s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/sim_sem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.666s] gmake: *** [Makefile:146: all] Error 2
+[0.669s] Invoked command in '/home/yony/Dev/ros2_ws/build/sim_sem_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yony/Dev/ros2_ws/build/sim_sem_interfaces -- -j12 -l12

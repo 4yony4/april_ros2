@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (-) JobUnselected: {'identifier': 'SIM'}
+[0.000475] (-) JobUnselected: {'identifier': 'sim_sem_interfaces'}
+[0.000566] (-) EventReactorShutdown: {}
