@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/april_ros2/april_ros2.egg-info
+writing ../build/april_ros2/april_ros2.egg-info/PKG-INFO
+writing dependency_links to ../build/april_ros2/april_ros2.egg-info/dependency_links.txt
+writing entry points to ../build/april_ros2/april_ros2.egg-info/entry_points.txt
+writing requirements to ../build/april_ros2/april_ros2.egg-info/requires.txt
+writing top-level names to ../build/april_ros2/april_ros2.egg-info/top_level.txt
+writing manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+reading manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+writing manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yony/Dev/ros2_ws/src/build/april_ros2/build
+creating /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib
+creating /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2
+copying april_ros2/sem.py -> /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2
+copying april_ros2/dummy.py -> /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2
+copying april_ros2/__init__.py -> /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2
+copying april_ros2/sim.py -> /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2
+running install
+running install_lib
+creating /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2
+copying /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2/sem.py -> /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2
+copying /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2/dummy.py -> /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2
+copying /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2/__init__.py -> /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2
+copying /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2/sim.py -> /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2
+byte-compiling /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2/sem.py to sem.cpython-38.pyc
+byte-compiling /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2/dummy.py to dummy.cpython-38.pyc
+byte-compiling /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2/sim.py to sim.cpython-38.pyc
+running install_data
+creating /home/yony/Dev/ros2_ws/src/install/april_ros2/share/ament_index
+creating /home/yony/Dev/ros2_ws/src/install/april_ros2/share/ament_index/resource_index
+creating /home/yony/Dev/ros2_ws/src/install/april_ros2/share/ament_index/resource_index/packages
+copying resource/april_ros2 -> /home/yony/Dev/ros2_ws/src/install/april_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/yony/Dev/ros2_ws/src/install/april_ros2/share/april_ros2
+running install_egg_info
+Copying ../build/april_ros2/april_ros2.egg-info to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2-0.0.1-py3.8.egg-info
+running install_scripts
+Installing dummy script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+Installing sem script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+Installing sim script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+writing list of installed files to '/home/yony/Dev/ros2_ws/src/build/april_ros2/install.log'

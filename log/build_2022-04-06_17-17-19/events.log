@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000922] (april_ros2) JobQueued: {'identifier': 'april_ros2', 'dependencies': OrderedDict()}
+[0.001018] (april_ros2) JobStarted: {'identifier': 'april_ros2'}
+[0.099759] (-) TimerEvent: {}
+[0.200444] (-) TimerEvent: {}
+[0.300901] (-) TimerEvent: {}
+[0.401625] (-) TimerEvent: {}
+[0.502008] (-) TimerEvent: {}
+[0.602396] (-) TimerEvent: {}
+[0.677221] (april_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/april_ros2', 'build', '--build-base', '/home/yony/Dev/ros2_ws/build/april_ros2/build', 'install', '--prefix', '/home/yony/Dev/ros2_ws/install/april_ros2', '--record', '/home/yony/Dev/ros2_ws/build/april_ros2/install.log', '--single-version-externally-managed'], 'cwd': '/home/yony/Dev/ros2_ws/src/april_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yony', 'LC_TIME': 'es_ES.UTF-8', 'SSH_AGENT_PID': '1914', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yony/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/yony/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/yony/ros2_galactic/ros2-linux/lib', 'HOME': '/home/yony', 'OLDPWD': '/home/yony/Dev/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'MANAGERPID': '1609', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f250c949a3ba5b65df854519624dbb31', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/yony/ros2_galactic/ros2-linux/src/install:/home/yony/ros2_galactic/ros2-linux', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'yony', 'JOURNAL_STREAM': '8:37819', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/yony/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/yony/ros2_galactic/ros2-linux/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yony', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/yony/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/X99:@/tmp/.ICE-unix/2021,unix/X99:/tmp/.ICE-unix/2021', 'INVOCATION_ID': '7559b0ae851a4c43a4b4937cf18684f9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1f89ded_047f_4b17_8083_0c7cee39e0c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.196', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yony/ros2_galactic/ros2-linux/src/install/april_ros2:/home/yony/ros2_galactic/ros2-linux', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yony/Dev/ros2_ws/build/april_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f250c949a3ba5b65df854519624dbb31', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages:/home/yony/ros2_galactic/ros2-linux/src/install/april_ros2/lib/python3.8/site-packages:/home/yony/ros2_galactic/ros2-linux/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/yony/ros2_galactic/ros2-linux'}, 'shell': False}
+[0.702536] (-) TimerEvent: {}
+[0.803104] (-) TimerEvent: {}
+[0.903494] (-) TimerEvent: {}
+[0.908997] (april_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.909520] (april_ros2) StdoutLine: {'line': b'creating ../../build/april_ros2/april_ros2.egg-info\n'}
+[0.909718] (april_ros2) StdoutLine: {'line': b'writing ../../build/april_ros2/april_ros2.egg-info/PKG-INFO\n'}
+[0.909949] (april_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/april_ros2/april_ros2.egg-info/dependency_links.txt\n'}
+[0.910176] (april_ros2) StdoutLine: {'line': b'writing entry points to ../../build/april_ros2/april_ros2.egg-info/entry_points.txt\n'}
+[0.910323] (april_ros2) StdoutLine: {'line': b'writing requirements to ../../build/april_ros2/april_ros2.egg-info/requires.txt\n'}
+[0.910523] (april_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/april_ros2/april_ros2.egg-info/top_level.txt\n'}
+[0.911573] (april_ros2) StdoutLine: {'line': b"writing manifest file '../../build/april_ros2/april_ros2.egg-info/SOURCES.txt'\n"}
+[0.945968] (april_ros2) StdoutLine: {'line': b"reading manifest file '../../build/april_ros2/april_ros2.egg-info/SOURCES.txt'\n"}
+[0.946705] (april_ros2) StdoutLine: {'line': b"writing manifest file '../../build/april_ros2/april_ros2.egg-info/SOURCES.txt'\n"}
+[0.947072] (april_ros2) StdoutLine: {'line': b'running build\n'}
+[0.947341] (april_ros2) StdoutLine: {'line': b'running build_py\n'}
+[0.947711] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/build/april_ros2/build\n'}
+[0.947863] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/build/april_ros2/build/lib\n'}
+[0.948003] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2\n'}
+[0.948142] (april_ros2) StdoutLine: {'line': b'copying april_ros2/sem.py -> /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2\n'}
+[0.948300] (april_ros2) StdoutLine: {'line': b'copying april_ros2/dummy.py -> /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2\n'}
+[0.948505] (april_ros2) StdoutLine: {'line': b'copying april_ros2/__init__.py -> /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2\n'}
+[0.948645] (april_ros2) StdoutLine: {'line': b'copying april_ros2/sim.py -> /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2\n'}
+[0.948830] (april_ros2) StdoutLine: {'line': b'running install\n'}
+[0.948978] (april_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[0.949363] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2\n'}
+[0.949549] (april_ros2) StdoutLine: {'line': b'copying /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2/sem.py -> /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2\n'}
+[0.949708] (april_ros2) StdoutLine: {'line': b'copying /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2/dummy.py -> /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2\n'}
+[0.949919] (april_ros2) StdoutLine: {'line': b'copying /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2/__init__.py -> /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2\n'}
+[0.950031] (april_ros2) StdoutLine: {'line': b'copying /home/yony/Dev/ros2_ws/build/april_ros2/build/lib/april_ros2/sim.py -> /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2\n'}
+[0.950241] (april_ros2) StdoutLine: {'line': b'byte-compiling /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2/sem.py to sem.cpython-38.pyc\n'}
+[0.951424] (april_ros2) StdoutLine: {'line': b'byte-compiling /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2/dummy.py to dummy.cpython-38.pyc\n'}
+[0.951799] (april_ros2) StdoutLine: {'line': b'byte-compiling /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2/__init__.py to __init__.cpython-38.pyc\n'}
+[0.951984] (april_ros2) StdoutLine: {'line': b'byte-compiling /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2/sim.py to sim.cpython-38.pyc\n'}
+[0.952299] (april_ros2) StdoutLine: {'line': b'running install_data\n'}
+[0.952710] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/install/april_ros2/share/ament_index\n'}
+[0.952941] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/install/april_ros2/share/ament_index/resource_index\n'}
+[0.953094] (april_ros2) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/install/april_ros2/share/ament_index/resource_index/packages\n'}
+[0.953246] (april_ros2) StdoutLine: {'line': b'copying resource/april_ros2 -> /home/yony/Dev/ros2_ws/install/april_ros2/share/ament_index/resource_index/packages\n'}
+[0.953349] (april_ros2) StdoutLine: {'line': b'copying package.xml -> /home/yony/Dev/ros2_ws/install/april_ros2/share/april_ros2\n'}
+[0.953449] (april_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.954798] (april_ros2) StdoutLine: {'line': b'Copying ../../build/april_ros2/april_ros2.egg-info to /home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2-0.0.1-py3.8.egg-info\n'}
+[0.955703] (april_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.973423] (april_ros2) StdoutLine: {'line': b'Installing listener script to /home/yony/Dev/ros2_ws/install/april_ros2/lib/april_ros2\n'}
+[0.973767] (april_ros2) StdoutLine: {'line': b'Installing talker script to /home/yony/Dev/ros2_ws/install/april_ros2/lib/april_ros2\n'}
+[0.974037] (april_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/yony/Dev/ros2_ws/build/april_ros2/install.log'\n"}
+[0.997133] (april_ros2) CommandEnded: {'returncode': 0}
+[1.003695] (-) TimerEvent: {}
+[1.012821] (april_ros2) JobEnded: {'identifier': 'april_ros2', 'rc': 0}
+[1.013948] (-) EventReactorShutdown: {}

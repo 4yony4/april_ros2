@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/home/yony/Dev/ros2_ws/build/april_ros2': /usr/bin/cmake /home/yony/Dev/ros2_ws/src/april_ros2 -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/april_ros2
+[0.037s] -- Found ament_cmake: 0.9.9 (/home/yony/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.272s] -- Found rclpy: 1.0.8 (/home/yony/ros2_galactic/ros2-linux/share/rclpy/cmake)
+[0.273s] CMake Error at /home/yony/ros2_galactic/ros2-linux/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.273s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.273s]   before
+[0.273s] Call Stack (most recent call first):
+[0.273s]   CMakeLists.txt:32 (ament_target_dependencies)
+[0.273s] 
+[0.273s] 
+[0.273s] -- Configuring incomplete, errors occurred!
+[0.273s] See also "/home/yony/Dev/ros2_ws/build/april_ros2/CMakeFiles/CMakeOutput.log".
+[0.277s] Invoked command in '/home/yony/Dev/ros2_ws/build/april_ros2' returned '1': /usr/bin/cmake /home/yony/Dev/ros2_ws/src/april_ros2 -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/april_ros2

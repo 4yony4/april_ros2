@@ -1,0 +1,5 @@
+  File "/home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages/april_ros2/dummy.py", line 105
+    //rclpy.spin(dummy_grasp)
+    ^
+SyntaxError: invalid syntax
+

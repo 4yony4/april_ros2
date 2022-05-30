@@ -1,0 +1,30 @@
+[0.670s] Invoking command in '/home/yony/Dev/ros2_ws/src/april_ros2': PYTHONPATH=/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/april_ros2 build --build-base /home/yony/Dev/ros2_ws/src/build/april_ros2/build install --prefix /home/yony/Dev/ros2_ws/src/install/april_ros2 --record /home/yony/Dev/ros2_ws/src/build/april_ros2/install.log --single-version-externally-managed
+[0.877s] running egg_info
+[0.877s] writing ../build/april_ros2/april_ros2.egg-info/PKG-INFO
+[0.878s] writing dependency_links to ../build/april_ros2/april_ros2.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../build/april_ros2/april_ros2.egg-info/entry_points.txt
+[0.878s] writing requirements to ../build/april_ros2/april_ros2.egg-info/requires.txt
+[0.878s] writing top-level names to ../build/april_ros2/april_ros2.egg-info/top_level.txt
+[0.913s] reading manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.914s] running build_py
+[0.914s] copying april_ros2/sim.py -> /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2
+[0.915s] running install
+[0.915s] running install_lib
+[0.916s] copying /home/yony/Dev/ros2_ws/src/build/april_ros2/build/lib/april_ros2/sim.py -> /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2
+[0.917s] byte-compiling /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2/sim.py to sim.cpython-38.pyc
+[0.918s] running install_data
+[0.919s] running install_egg_info
+[0.920s] removing '/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2-0.0.1-py3.8.egg-info' (and everything under it)
+[0.920s] Copying ../build/april_ros2/april_ros2.egg-info to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2-0.0.1-py3.8.egg-info
+[0.921s] running install_scripts
+[0.937s] Installing dummy_fa script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.937s] Installing dummy_grasp script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.937s] Installing dummy_hb script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.937s] Installing dummy_nc script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.938s] Installing dummy_nv script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.938s] Installing sem script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.938s] Installing sim script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[0.938s] writing list of installed files to '/home/yony/Dev/ros2_ws/src/build/april_ros2/install.log'
+[0.956s] Invoked command in '/home/yony/Dev/ros2_ws/src/april_ros2' returned '0': PYTHONPATH=/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/april_ros2 build --build-base /home/yony/Dev/ros2_ws/src/build/april_ros2/build install --prefix /home/yony/Dev/ros2_ws/src/install/april_ros2 --record /home/yony/Dev/ros2_ws/src/build/april_ros2/install.log --single-version-externally-managed

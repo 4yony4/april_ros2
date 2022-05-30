@@ -1,0 +1,4 @@
+Invoking command in '/home/yony/Dev/ros2_ws/build/april_ros2': /usr/bin/cmake /home/yony/Dev/ros2_ws/src/april_ros2 -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/april_ros2
+Invoked command in '/home/yony/Dev/ros2_ws/build/april_ros2' returned '0': /usr/bin/cmake /home/yony/Dev/ros2_ws/src/april_ros2 -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/april_ros2
+Invoking command in '/home/yony/Dev/ros2_ws/build/april_ros2': /usr/bin/cmake --build /home/yony/Dev/ros2_ws/build/april_ros2 -- -j12 -l12
+Invoked command in '/home/yony/Dev/ros2_ws/build/april_ros2' returned '2': /usr/bin/cmake --build /home/yony/Dev/ros2_ws/build/april_ros2 -- -j12 -l12

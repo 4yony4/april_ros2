@@ -1,0 +1,47 @@
+[0.690s] Invoking command in '/home/yony/Dev/ros2_ws/src/april_ros2': PYTHONPATH=/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/april_ros2 build --build-base /home/yony/Dev/ros2_ws/src/build/april_ros2/build install --prefix /home/yony/Dev/ros2_ws/src/install/april_ros2 --record /home/yony/Dev/ros2_ws/src/build/april_ros2/install.log --single-version-externally-managed
+[0.926s] running egg_info
+[0.926s] writing ../build/april_ros2/april_ros2.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../build/april_ros2/april_ros2.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../build/april_ros2/april_ros2.egg-info/entry_points.txt
+[0.927s] writing requirements to ../build/april_ros2/april_ros2.egg-info/requires.txt
+[0.927s] writing top-level names to ../build/april_ros2/april_ros2.egg-info/top_level.txt
+[0.966s] reading manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+[0.967s] writing manifest file '../build/april_ros2/april_ros2.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] running install
+[0.968s] running install_lib
+[0.969s] running install_data
+[0.970s] copying package.xml -> /home/yony/Dev/ros2_ws/src/install/april_ros2/share/april_ros2
+[0.970s] running install_egg_info
+[0.971s] removing '/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2-0.0.1-py3.8.egg-info' (and everything under it)
+[0.971s] Copying ../build/april_ros2/april_ros2.egg-info to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages/april_ros2-0.0.1-py3.8.egg-info
+[0.972s] running install_scripts
+[0.992s] Installing sem script to /home/yony/Dev/ros2_ws/src/install/april_ros2/lib/april_ros2
+[1.051s] Traceback (most recent call last):
+[1.051s]   File "setup.py", line 8, in <module>
+[1.051s]     setup(
+[1.052s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 144, in setup
+[1.052s]     return distutils.core.setup(**attrs)
+[1.052s]   File "/usr/lib/python3.8/distutils/core.py", line 148, in setup
+[1.052s]     dist.run_commands()
+[1.052s]   File "/usr/lib/python3.8/distutils/dist.py", line 966, in run_commands
+[1.053s]     self.run_command(cmd)
+[1.053s]   File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+[1.053s]     cmd_obj.run()
+[1.053s]   File "/usr/lib/python3/dist-packages/setuptools/command/install.py", line 61, in run
+[1.054s]     return orig.install.run(self)
+[1.054s]   File "/usr/lib/python3.8/distutils/command/install.py", line 601, in run
+[1.054s]     self.run_command(cmd_name)
+[1.054s]   File "/usr/lib/python3.8/distutils/cmd.py", line 313, in run_command
+[1.054s]     self.distribution.run_command(command)
+[1.054s]   File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+[1.055s]     cmd_obj.run()
+[1.055s]   File "/usr/lib/python3/dist-packages/setuptools/command/install_scripts.py", line 51, in run
+[1.055s]     for args in writer.get_args(dist, cmd.as_header()):
+[1.055s]   File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 2168, in get_args
+[1.055s]     cls._ensure_safe_name(name)
+[1.055s]   File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 2181, in _ensure_safe_name
+[1.056s]     raise ValueError("Path separators not allowed in script names")
+[1.056s] ValueError: Path separators not allowed in script names
+[1.083s] Invoked command in '/home/yony/Dev/ros2_ws/src/april_ros2' returned '1': PYTHONPATH=/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/april_ros2 build --build-base /home/yony/Dev/ros2_ws/src/build/april_ros2/build install --prefix /home/yony/Dev/ros2_ws/src/install/april_ros2 --record /home/yony/Dev/ros2_ws/src/build/april_ros2/install.log --single-version-externally-managed

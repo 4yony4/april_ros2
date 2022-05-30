@@ -1,0 +1,38 @@
+[0.021s] Invoking command in '/home/yony/Dev/ros2_ws/build/april_ros2': /usr/bin/cmake /home/yony/Dev/ros2_ws/src/april_ros2 -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/april_ros2
+[0.040s] -- Found ament_cmake: 0.9.9 (/home/yony/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.273s] -- Found rclcpp: 2.4.1 (/home/yony/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.310s] -- Found rosidl_adapter: 1.2.1 (/home/yony/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.327s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[0.337s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[0.377s] CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+[0.377s]   Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+[0.377s]   system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY
+[0.378s]   OPENSSL_INCLUDE_DIR)
+[0.378s] Call Stack (most recent call first):
+[0.378s]   /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+[0.378s]   /usr/share/cmake-3.16/Modules/FindOpenSSL.cmake:447 (find_package_handle_standard_args)
+[0.378s]   /home/yony/ros2_galactic/ros2-linux/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)
+[0.379s]   /home/yony/ros2_galactic/ros2-linux/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)
+[0.379s]   /home/yony/ros2_galactic/ros2-linux/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)
+[0.379s]   /home/yony/ros2_galactic/ros2-linux/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+[0.379s]   /home/yony/ros2_galactic/ros2-linux/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.379s]   /home/yony/ros2_galactic/ros2-linux/share/rosidl_default_runtime/cmake/rosidl_default_runtime-extras.cmake:12 (find_package)
+[0.379s]   /home/yony/ros2_galactic/ros2-linux/share/rosidl_default_runtime/cmake/rosidl_default_runtimeConfig.cmake:41 (include)
+[0.380s]   /home/yony/ros2_galactic/ros2-linux/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.380s]   /home/yony/ros2_galactic/ros2-linux/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.380s]   /home/yony/ros2_galactic/ros2-linux/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.380s]   /home/yony/ros2_galactic/ros2-linux/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)
+[0.380s]   /home/yony/ros2_galactic/ros2-linux/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.380s]   /home/yony/ros2_galactic/ros2-linux/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.381s]   /home/yony/ros2_galactic/ros2-linux/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.381s]   /home/yony/ros2_galactic/ros2-linux/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.381s]   /home/yony/ros2_galactic/ros2-linux/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.381s]   /home/yony/ros2_galactic/ros2-linux/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.381s]   CMakeLists.txt:21 (find_package)
+[0.381s] 
+[0.382s] 
+[0.382s] -- Configuring incomplete, errors occurred!
+[0.383s] See also "/home/yony/Dev/ros2_ws/build/april_ros2/CMakeFiles/CMakeOutput.log".
+[0.384s] Invoked command in '/home/yony/Dev/ros2_ws/build/april_ros2' returned '1': /usr/bin/cmake /home/yony/Dev/ros2_ws/src/april_ros2 -DCMAKE_INSTALL_PREFIX=/home/yony/Dev/ros2_ws/install/april_ros2

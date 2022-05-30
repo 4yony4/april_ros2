@@ -1,0 +1,4 @@
+source;share/april_ros2/local_setup.bash
+source;share/april_ros2/local_setup.dsv
+source;share/april_ros2/local_setup.sh
+source;share/april_ros2/local_setup.zsh
