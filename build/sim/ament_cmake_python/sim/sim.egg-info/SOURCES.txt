@@ -1,6 +1,0 @@
-setup.py
-sim/__init__.py
-sim.egg-info/PKG-INFO
-sim.egg-info/SOURCES.txt
-sim.egg-info/dependency_links.txt
-sim.egg-info/top_level.txt

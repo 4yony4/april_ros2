@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sim_sem_interfaces/msg/RobotGraspingStrategies.msg
+// generated code does not contain a copyright notice
+
+
+module sim_sem_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "std_msgs/Header Header")
+    struct RobotGraspingStrategies {
+      @default (value="('power', 'pinch', 'three_fingers')")
+      sequence<string> type;
+
+      string location;
+
+      float timetolift;
+    };
+  };
+};

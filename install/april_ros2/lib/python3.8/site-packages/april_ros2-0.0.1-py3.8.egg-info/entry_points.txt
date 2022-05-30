@@ -1,5 +1,0 @@
-[console_scripts]
-dummy = april_ros2.dummy:main
-sem = april_ros2.sem:main
-sim = april_ros2.sim:main
-
