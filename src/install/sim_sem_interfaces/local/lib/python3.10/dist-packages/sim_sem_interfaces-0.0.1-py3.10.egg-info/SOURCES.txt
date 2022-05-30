@@ -1,6 +1,0 @@
-setup.py
-sim_sem_interfaces/__init__.py
-sim_sem_interfaces.egg-info/PKG-INFO
-sim_sem_interfaces.egg-info/SOURCES.txt
-sim_sem_interfaces.egg-info/dependency_links.txt
-sim_sem_interfaces.egg-info/top_level.txt
