@@ -9,7 +9,7 @@ def generate_launch_description():
         launch.actions.DeclareLaunchArgument(
             'node_prefix',
             #default_value=[launch.substitutions.EnvironmentVariable('USER'), '_'],
-            default_value=['SIM', '_'],
+            default_value=['SIM_PACKAGE', '_'],
             description='Prefix for node names'),
         launch_ros.actions.Node(
             package='sim', executable='dummy_fa', output='screen',

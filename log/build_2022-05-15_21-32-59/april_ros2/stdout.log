@@ -1,5 +1,0 @@
--- Found ament_cmake: 0.9.9 (/home/yony/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
--- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Found rclpy: 1.0.8 (/home/yony/ros2_galactic/ros2-linux/share/rclpy/cmake)
--- Configuring incomplete, errors occurred!
-See also "/home/yony/Dev/ros2_ws/build/april_ros2/CMakeFiles/CMakeOutput.log".
