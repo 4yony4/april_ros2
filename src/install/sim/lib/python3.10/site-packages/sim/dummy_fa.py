@@ -30,7 +30,7 @@ class Dummy_Publisher_FA(Node):
             msg = String()
             ##msg.data = 'GRASP: %d' % self.i
             #print(self.topicMsg())
-            msg.data=('FATIGUE ANALYSIS 22222222222222222222222222222222222222222222: %d' % self.i)
+            msg.data=('FATIGUE ANALYSIS: %d' % self.i)
             self.publisher_.publish(msg)
             #self.get_logger().info('Publishing: "%s"' % msg.data)
             self.i += 1

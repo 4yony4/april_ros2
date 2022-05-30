@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (-) JobUnselected: {'identifier': 'sim_sem_interfaces'}
+[0.000991] (-) JobUnselected: {'identifier': 'temp'}
+[0.001445] (sim) JobQueued: {'identifier': 'sim', 'dependencies': OrderedDict()}
+[0.001524] (sim) JobStarted: {'identifier': 'sim'}
+[0.099314] (-) TimerEvent: {}
+[0.199683] (-) TimerEvent: {}
+[0.300124] (-) TimerEvent: {}
+[0.400540] (-) TimerEvent: {}
+[0.500930] (-) TimerEvent: {}
+[0.601384] (-) TimerEvent: {}
+[0.701820] (-) TimerEvent: {}
+[0.728451] (sim) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sim', 'build', '--build-base', '/home/yony/Dev/ros2_ws/build/sim/build', 'install', '--prefix', '/home/yony/Dev/ros2_ws/install/sim', '--record', '/home/yony/Dev/ros2_ws/build/sim/install.log', '--single-version-externally-managed'], 'cwd': '/home/yony/Dev/ros2_ws/src/sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yony', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yony/Dev/ros2_ws/install/sim_sem_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yony', 'OLDPWD': '/home/yony/Dev/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'SYSTEMD_EXEC_PID': '1643', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/yony/Dev/ros2_ws/install:/home/yony/Dev/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yony', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'yony', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/X99:@/tmp/.ICE-unix/1623,unix/X99:/tmp/.ICE-unix/1623', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04cbcf77_15a6_484c_b57e_b03545ef5db3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yony/Dev/ros2_ws/install/temp:/home/yony/Dev/ros2_ws/src/install/temp:/home/yony/Dev/ros2_ws/src/install/sim:/home/yony/Dev/ros2_ws/src/install/april_ros2:/home/yony/Dev/ros2_ws/install/sim_sem_interfaces:/home/yony/Dev/ros2_ws/install/sim:/home/yony/Dev/ros2_ws/install/april_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yony/Dev/ros2_ws/build/sim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages:/home/yony/Dev/ros2_ws/install/temp/lib/python3.10/site-packages:/home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages:/home/yony/Dev/ros2_ws/src/install/temp/lib/python3.10/site-packages:/home/yony/Dev/ros2_ws/src/install/sim/lib/python3.10/site-packages:/home/yony/Dev/ros2_ws/src/install/april_ros2/lib/python3.8/site-packages:/home/yony/Dev/ros2_ws/install/sim_sem_interfaces/local/lib/python3.10/dist-packages:/home/yony/Dev/ros2_ws/install/sim/local/lib/python3.10/dist-packages:/home/yony/Dev/ros2_ws/install/april_ros2/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/yony/Dev/ros2_ws/install/sim_sem_interfaces:/home/yony/Dev/ros2_ws/install/sim:/home/yony/Dev/ros2_ws/install/april_ros2'}, 'shell': False}
+[0.801926] (-) TimerEvent: {}
+[0.902210] (-) TimerEvent: {}
+[1.002502] (-) TimerEvent: {}
+[1.027946] (sim) StdoutLine: {'line': b'running egg_info\n'}
+[1.028366] (sim) StdoutLine: {'line': b'creating ../../build/sim/sim.egg-info\n'}
+[1.028638] (sim) StdoutLine: {'line': b'writing ../../build/sim/sim.egg-info/PKG-INFO\n'}
+[1.028936] (sim) StdoutLine: {'line': b'writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt\n'}
+[1.029213] (sim) StdoutLine: {'line': b'writing entry points to ../../build/sim/sim.egg-info/entry_points.txt\n'}
+[1.029403] (sim) StdoutLine: {'line': b'writing requirements to ../../build/sim/sim.egg-info/requires.txt\n'}
+[1.029588] (sim) StdoutLine: {'line': b'writing top-level names to ../../build/sim/sim.egg-info/top_level.txt\n'}
+[1.030441] (sim) StdoutLine: {'line': b"writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[1.031998] (sim) StdoutLine: {'line': b"reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[1.032854] (sim) StdoutLine: {'line': b"writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[1.033099] (sim) StdoutLine: {'line': b'running build\n'}
+[1.033259] (sim) StdoutLine: {'line': b'running build_py\n'}
+[1.033351] (sim) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/build/sim/build\n'}
+[1.033429] (sim) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/build/sim/build/lib\n'}
+[1.033505] (sim) StdoutLine: {'line': b'creating /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.043987] (sim) StdoutLine: {'line': b'copying sim/dummy_fa.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.044390] (sim) StdoutLine: {'line': b'copying sim/sem.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.044564] (sim) StdoutLine: {'line': b'copying sim/dummy_grasp.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.044690] (sim) StdoutLine: {'line': b'copying sim/dummy_hb.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.044816] (sim) StdoutLine: {'line': b'copying sim/dummy_nc.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.044938] (sim) StdoutLine: {'line': b'copying sim/dummy.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.045021] (sim) StdoutLine: {'line': b'copying sim/dummy_nv.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.045143] (sim) StdoutLine: {'line': b'copying sim/__init__.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.045226] (sim) StdoutLine: {'line': b'copying sim/sim.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim\n'}
+[1.045306] (sim) StdoutLine: {'line': b'running install\n'}
+[1.045447] (sim) StdoutLine: {'line': b'running install_lib\n'}
+[1.046169] (sim) StdoutLine: {'line': b'copying /home/yony/Dev/ros2_ws/build/sim/build/lib/sim/dummy_nc.py -> /home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim\n'}
+[1.047021] (sim) StdoutLine: {'line': b'byte-compiling /home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim/dummy_nc.py to dummy_nc.cpython-310.pyc\n'}
+[1.047631] (sim) StdoutLine: {'line': b'running install_data\n'}
+[1.048169] (sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.049740] (sim) StdoutLine: {'line': b"removing '/home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[1.049924] (sim) StdoutLine: {'line': b'Copying ../../build/sim/sim.egg-info to /home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim-0.0.1-py3.10.egg-info\n'}
+[1.050962] (sim) StdoutLine: {'line': b'running install_scripts\n'}
+[1.072587] (sim) StdoutLine: {'line': b'Installing dummy_fa script to /home/yony/Dev/ros2_ws/install/sim/lib/sim\n'}
+[1.072815] (sim) StdoutLine: {'line': b'Installing dummy_grasp script to /home/yony/Dev/ros2_ws/install/sim/lib/sim\n'}
+[1.072917] (sim) StdoutLine: {'line': b'Installing dummy_hb script to /home/yony/Dev/ros2_ws/install/sim/lib/sim\n'}
+[1.073067] (sim) StdoutLine: {'line': b'Installing dummy_nc script to /home/yony/Dev/ros2_ws/install/sim/lib/sim\n'}
+[1.073150] (sim) StdoutLine: {'line': b'Installing dummy_nv script to /home/yony/Dev/ros2_ws/install/sim/lib/sim\n'}
+[1.073266] (sim) StdoutLine: {'line': b'Installing sim script to /home/yony/Dev/ros2_ws/install/sim/lib/sim\n'}
+[1.073583] (sim) StdoutLine: {'line': b"writing list of installed files to '/home/yony/Dev/ros2_ws/build/sim/install.log'\n"}
+[1.099455] (sim) CommandEnded: {'returncode': 0}
+[1.102662] (-) TimerEvent: {}
+[1.140053] (sim) JobEnded: {'identifier': 'sim', 'rc': 0}
+[1.141209] (-) EventReactorShutdown: {}

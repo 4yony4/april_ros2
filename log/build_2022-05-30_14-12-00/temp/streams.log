@@ -1,0 +1,20 @@
+[1.070s] Invoking command in '/home/yony/Dev/ros2_ws/src/temp': PYTHONPATH=/home/yony/Dev/ros2_ws/install/temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/temp build --build-base /home/yony/Dev/ros2_ws/build/temp/build install --prefix /home/yony/Dev/ros2_ws/install/temp --record /home/yony/Dev/ros2_ws/build/temp/install.log --single-version-externally-managed
+[1.370s] running egg_info
+[1.370s] writing ../../build/temp/temp.egg-info/PKG-INFO
+[1.371s] writing dependency_links to ../../build/temp/temp.egg-info/dependency_links.txt
+[1.371s] writing entry points to ../../build/temp/temp.egg-info/entry_points.txt
+[1.371s] writing requirements to ../../build/temp/temp.egg-info/requires.txt
+[1.371s] writing top-level names to ../../build/temp/temp.egg-info/top_level.txt
+[1.374s] reading manifest file '../../build/temp/temp.egg-info/SOURCES.txt'
+[1.375s] writing manifest file '../../build/temp/temp.egg-info/SOURCES.txt'
+[1.375s] running build
+[1.376s] running build_py
+[1.376s] running install
+[1.376s] running install_lib
+[1.378s] running install_data
+[1.378s] running install_egg_info
+[1.380s] removing '/home/yony/Dev/ros2_ws/install/temp/lib/python3.10/site-packages/temp-0.0.0-py3.10.egg-info' (and everything under it)
+[1.380s] Copying ../../build/temp/temp.egg-info to /home/yony/Dev/ros2_ws/install/temp/lib/python3.10/site-packages/temp-0.0.0-py3.10.egg-info
+[1.381s] running install_scripts
+[1.404s] writing list of installed files to '/home/yony/Dev/ros2_ws/build/temp/install.log'
+[1.437s] Invoked command in '/home/yony/Dev/ros2_ws/src/temp' returned '0': PYTHONPATH=/home/yony/Dev/ros2_ws/install/temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/temp build --build-base /home/yony/Dev/ros2_ws/build/temp/build install --prefix /home/yony/Dev/ros2_ws/install/temp --record /home/yony/Dev/ros2_ws/build/temp/install.log --single-version-externally-managed

@@ -1,0 +1,29 @@
+[0.732s] Invoking command in '/home/yony/Dev/ros2_ws/src/sim': PYTHONPATH=/home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/yony/Dev/ros2_ws/build/sim/build install --prefix /home/yony/Dev/ros2_ws/install/sim --record /home/yony/Dev/ros2_ws/build/sim/install.log --single-version-externally-managed
+[1.035s] running egg_info
+[1.035s] writing ../../build/sim/sim.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../../build/sim/sim.egg-info/entry_points.txt
+[1.036s] writing requirements to ../../build/sim/sim.egg-info/requires.txt
+[1.036s] writing top-level names to ../../build/sim/sim.egg-info/top_level.txt
+[1.038s] reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] copying sim/dummy_nc.py -> /home/yony/Dev/ros2_ws/build/sim/build/lib/sim
+[1.040s] running install
+[1.041s] running install_lib
+[1.041s] copying /home/yony/Dev/ros2_ws/build/sim/build/lib/sim/dummy_nc.py -> /home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim
+[1.042s] byte-compiling /home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim/dummy_nc.py to dummy_nc.cpython-310.pyc
+[1.043s] running install_data
+[1.043s] running install_egg_info
+[1.045s] removing '/home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim-0.0.1-py3.10.egg-info' (and everything under it)
+[1.045s] Copying ../../build/sim/sim.egg-info to /home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages/sim-0.0.1-py3.10.egg-info
+[1.046s] running install_scripts
+[1.066s] Installing dummy_fa script to /home/yony/Dev/ros2_ws/install/sim/lib/sim
+[1.066s] Installing dummy_grasp script to /home/yony/Dev/ros2_ws/install/sim/lib/sim
+[1.066s] Installing dummy_hb script to /home/yony/Dev/ros2_ws/install/sim/lib/sim
+[1.067s] Installing dummy_nc script to /home/yony/Dev/ros2_ws/install/sim/lib/sim
+[1.067s] Installing dummy_nv script to /home/yony/Dev/ros2_ws/install/sim/lib/sim
+[1.067s] Installing sim script to /home/yony/Dev/ros2_ws/install/sim/lib/sim
+[1.067s] writing list of installed files to '/home/yony/Dev/ros2_ws/build/sim/install.log'
+[1.091s] Invoked command in '/home/yony/Dev/ros2_ws/src/sim' returned '0': PYTHONPATH=/home/yony/Dev/ros2_ws/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim build --build-base /home/yony/Dev/ros2_ws/build/sim/build install --prefix /home/yony/Dev/ros2_ws/install/sim --record /home/yony/Dev/ros2_ws/build/sim/install.log --single-version-externally-managed
