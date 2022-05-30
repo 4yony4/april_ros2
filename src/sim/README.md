@@ -67,15 +67,15 @@ ros2 run my_package my_node
 
 In our case it can either be:
 ```sh
-ros2 run april_ros2 sim
+ros2 run sim sim
 ``` 
 
 ```sh
-ros2 run april_ros2 sem
+ros2 run sim sem
 ``` 
 
 ```sh
-ros2 run april_ros2 dummy
+ros2 run sim dummy
 ``` 
 ## Create a new Node
 

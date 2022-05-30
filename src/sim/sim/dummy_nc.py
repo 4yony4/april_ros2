@@ -9,13 +9,14 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from std_msgs.msg import Float32MultiArray
 
+from sim_sem_interfaces.msg import NeuromorphicSensing
 
 class Dummy_Publisher_NC(Node):
 
     def __init__(self):
         super().__init__('nc_strategies')
 
-        self.publisher_ = self.create_publisher(String, 'nc_topic', 10)
+        self.publisher_ = self.create_publisher(NeuromorphicSensing, 'nc_topic', 10)
         self.i = 0
         self.timeMin=0.1
         self.timeMax=0.5
@@ -26,11 +27,17 @@ class Dummy_Publisher_NC(Node):
         while True:
             delay = random.uniform(self.timeMin, self.timeMax)
             #print("Sleep " + str(delay) + "s")
-            msg = String()
+            msg2 = NeuromorphicSensing()
+            #msg2.point1_speed = ('POINT SPEED 1: %d' % self.i)
+            #msg2.point2_speed = ('POINT SPEED 2: %d' % self.i)
+            msg2.point1_speed = ('POINT SPEED 1: 7 m/s')
+            msg2.point2_speed = ('POINT SPEED 2: 4 m/s')
+            #msg = String
             ##msg.data = 'GRASP: %d' % self.i
             #print(self.topicMsg())
-            msg.data=('NEUROMORPHIC CAMERA: %d' % self.i)
-            self.publisher_.publish(msg)
+            #msg.data=('NEUROMORPHIC CAMERA: %d' % self.i)
+            #msg.data=
+            self.publisher_.publish(msg2)
             #self.get_logger().info('Publishing: "%s"' % msg.data)
             self.i += 1
             sleep(delay)

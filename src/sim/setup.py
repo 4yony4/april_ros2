@@ -23,11 +23,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'dummy_grasp = april_ros2.dummy_grasp:main',
-            'dummy_fa = april_ros2.dummy_fa:main',
-            'dummy_hb = april_ros2.dummy_hb:main',
-            'dummy_nc = april_ros2.dummy_nc:main',
-            'dummy_nv = april_ros2.dummy_nv:main',
+            'dummy_grasp = sim.dummy_grasp:main',
+            'dummy_fa = sim.dummy_fa:main',
+            'dummy_hb = sim.dummy_hb:main',
+            'dummy_nc = sim.dummy_nc:main',
+            'dummy_nv = sim.dummy_nv:main',
 
 
             'sim = sim.sim:main',
