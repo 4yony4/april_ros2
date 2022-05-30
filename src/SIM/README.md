@@ -1,4 +1,4 @@
-## April ROS2 Package
+## SIM Package
 
 ## Set environmental ROS2
 
