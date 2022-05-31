@@ -1,8 +1,6 @@
-import os
-from glob import glob
 from setuptools import setup
 
-package_name = 'sim'
+package_name = 'grasp'
 
 setup(
     name=package_name,
@@ -12,25 +10,17 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='YonY',
     maintainer_email='jonathan.barmagen@iit.it',
-    description='SIM package for the APRIL project. It includes a Dummy object to simulate signals.',
+    description='Package containning the Nodes responsable for the gathering and processing of grasping information',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            
-            
-            'dummy_hb = sim.dummy_hb:main',
-
-            'dummy_nv = sim.dummy_nv:main',
-
-
-            'sim = sim.sim:main',
+            'dummy_grasp = grasp.dummy_grasp:main',
         ],
     },
 )
