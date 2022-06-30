@@ -1,3 +1,3 @@
 #std_msgs/Header Header
-string point1_speed
-string point2_speed
+string point1_speed #1-10 m/s
+string point2_speed #1-10 m/s

@@ -30,8 +30,9 @@ class Dummy_Publisher_NC(Node):
             msg2 = NeuromorphicSensing()
             #msg2.point1_speed = ('POINT SPEED 1: %d' % self.i)
             #msg2.point2_speed = ('POINT SPEED 2: %d' % self.i)
-            msg2.point1_speed = ('POINT SPEED 1: 7 m/s')
-            msg2.point2_speed = ('POINT SPEED 2: 4 m/s')
+
+            msg2.point1_speed = ('POINT SPEED 1: %d m/s' % random.uniform(1, 10))
+            msg2.point2_speed = ('POINT SPEED 2: %d m/s' % random.uniform(1, 10))
             #msg = String
             ##msg.data = 'GRASP: %d' % self.i
             #print(self.topicMsg())
