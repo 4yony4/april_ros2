@@ -1,10 +1,10 @@
 ## IIT - APRIL SEM SIM GALACTIC WORKSPACE
 
 ## Contact
-Jonathan Z. Bar-Magen Numhauser [mailto](mailto:jonathan.barmagen@iit.it)
-Sara Nataletti [mailto](Sara.Nataletti@iit.it)
-Giulia Belgiovine [mailto](mailto:Giulia.Belgiovine@iit.it)
-Francesco Rea [mailto](mailto:Francesco.Rea@iit.it)
+[Jonathan Z. Bar-Magen Numhauser](mailto:jonathan.barmagen@iit.it)
+[Sara Nataletti](Sara.Nataletti@iit.it)
+[Giulia Belgiovine](mailto:Giulia.Belgiovine@iit.it)
+[Francesco Rea](mailto:Francesco.Rea@iit.it)
 
 ## Description
 
