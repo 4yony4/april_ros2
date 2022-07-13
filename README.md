@@ -4,7 +4,7 @@
 [Jonathan Z. Bar-Magen Numhauser](mailto:jonathan.barmagen@iit.it)\
 [Sara Nataletti](Sara.Nataletti@iit.it)\
 [Giulia Belgiovine](mailto:Giulia.Belgiovine@iit.it)\
-[Francesco Rea](mailto:Francesco.Rea@iit.it)\
+[Francesco Rea](mailto:Francesco.Rea@iit.it)
 
 ## Description
 
@@ -15,15 +15,15 @@ There will be also INTERFACE Package, which will include as an independent packa
 
 Later on, all the PACKAGES included here will be deployed by a DOCKER system inside the APRIL environment.
 
-## ROS2 INSTALLATION
+## ROS2 - GALACTIC INSTALLATION
 In the latest version we followed the instructions in Galactic official site for ROS2 HUMBLE installation. This requires to have Ubuntu Linux 22, BUT it also upgrades the SetupTools in python to version 59, and for now we need to maintain the version at no more than 58 (See last section bellow)
 
-Instructions at: https://docs.ros.org/en/humble/index.html
+Instructions at: https://docs.ros.org/en/galactic/index.html
 
 For now there is backward compatibility with Galactic, so if you are using Galactic you can continue using it.
 
 
-## RUNNING APRIL_ROS
+## RUNNING SIM AND SEM
 First you have to clone this repo in a folder. That folder will represent the Workspace.
 
 Then, you follow the next steps:
