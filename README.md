@@ -1,8 +1,14 @@
-## APRIL ROS2 WORKSPACE
+## IIT - APRIL SEM SIM GALACTIC WORKSPACE
+
+## Contact
+Jonathan Z. Bar-Magen Numhauser [mailto](mailto:jonathan.barmagen@iit.it)
+Sara Nataletti [mailto](Sara.Nataletti@iit.it)
+Giulia Belgiovine [mailto](mailto:Giulia.Belgiovine@iit.it)
+Francesco Rea [mailto](mailto:Francesco.Rea@iit.it)
 
 ## Description
 
-This level is only the Workspace level of the complete IIT April Ros2, for SIM and SEM components and all their nodes.
+This level is only the Workspace level of the complete IIT April Galactic, for SIM and SEM components and all their nodes.
 Here you will find, inside the /src folder, all the PACKAGES (SIM, SEM, etc.) that will include the necesarry funcionality.
 
 There will be also INTERFACE Package, which will include as an independent package all the messages used by our system.
@@ -10,7 +16,7 @@ There will be also INTERFACE Package, which will include as an independent packa
 Later on, all the PACKAGES included here will be deployed by a DOCKER system inside the APRIL environment.
 
 ## ROS2 INSTALLATION
-In the latest version we followed the instructions in ROS2 official site for ROS2 HUMBLE installation. This requires to have Ubuntu Linux 22, BUT it also upgrades the SetupTools in python to version 59, and for now we need to maintain the version at no more than 58 (See last section bellow)
+In the latest version we followed the instructions in Galactic official site for ROS2 HUMBLE installation. This requires to have Ubuntu Linux 22, BUT it also upgrades the SetupTools in python to version 59, and for now we need to maintain the version at no more than 58 (See last section bellow)
 
 Instructions at: https://docs.ros.org/en/humble/index.html
 
