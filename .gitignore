@@ -4,6 +4,5 @@ src/log
 install
 build
 log
-src/nc_controller
-src/realsense-ros
-.vscode
+#src/nc_controller
+#src/realsense-ros
