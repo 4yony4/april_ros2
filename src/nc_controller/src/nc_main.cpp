@@ -5,8 +5,10 @@
 
 #include "cv_bridge/cv_bridge.h"
 #include "rclcpp/rclcpp.hpp"
+#include "rclcpp/qos.hpp"
 #include "sensor_msgs/msg/image.hpp"
 #include "event_array_msgs/msg/event_array.hpp"
+#include "event_array_msgs/decode.h"
 using std::placeholders::_1;
 
 #include <opencv2/imgcodecs.hpp>
@@ -15,12 +17,14 @@ using std::placeholders::_1;
 #include <opencv2/highgui.hpp>
 #include <opencv2/video.hpp>
 
-
 static const std::string IMAGE_TOPIC = "/camera/color/image_raw";
 static const std::string EVENTS_TOPIC = "/event_camera/events";
 //static const std::string IMAGE_TOPIC = "/camera/depth/image_rect_raw";
 using namespace cv;
 using namespace cv_bridge;
+
+
+int count=100;
 
 class nc_main : public rclcpp::Node
 {
@@ -37,21 +41,32 @@ class nc_main : public rclcpp::Node
       /*subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
       IMAGE_TOPIC, 10, std::bind(&nc_main::depth_img_callback, this, _1));
 
+*/
+
+      rmw_qos_profile_t qos_profile = rmw_qos_profile_sensor_data;
+      auto qos = rclcpp::QoS(
+        rclcpp::QoSInitialization(
+          qos_profile.history,
+          qos_profile.depth
+        ),
+        qos_profile);
 
       subscription_events = this->create_subscription<event_array_msgs::msg::EventArray>(
-      EVENTS_TOPIC, 10, std::bind(&nc_main::events_camera_data, this, _1));*/
+      EVENTS_TOPIC, qos, std::bind(&nc_main::events_camera_data, this, _1));
 
       publisher_ = this->create_publisher<sensor_msgs::msg::Image>("nc_controller/main/proc_img", 10);
+       //pBackSub = createBackgroundSubtractorKNN();
 
-      //if (parser.get<String>("algo") == "MOG2")
-        //pBackSub = createBackgroundSubtractorMOG2();
-      //else
-        pBackSub = createBackgroundSubtractorKNN();
+      //run_nc_camera();
 
-        //opencv_video_capture();
     }
 
   private:
+
+    void run_nc_camera(){ 
+
+    }
+
     void opencv_video_capture(){
       Mat frame;
       //--- INITIALIZE VIDEOCAPTURE
@@ -81,6 +96,7 @@ class nc_main : public rclcpp::Node
              //printf("ERROR! blank frame grabbed\n");
               //cerr << "ERROR! blank frame grabbed\n";
               //break;
+              
           }
           else{
             //imshow("Live", frame);
@@ -88,7 +104,7 @@ class nc_main : public rclcpp::Node
           }
           // show live and wait for a key with timeout long enough to show images
           //imshow("Live", frame);
-          //if (waitKey(5) >= 0)
+          //if (waitKey(5) >= 0)o
               //break;
       }
       // the camera will be deinitialized automatically in VideoCapture destructor
@@ -97,7 +113,23 @@ class nc_main : public rclcpp::Node
 
     void events_camera_data(const event_array_msgs::msg::EventArray & events) const
     {
-        printf("!!!!!!!! EVENTOS RECIBIDOS!!!! %d",events.height);
+      
+      
+        //printf("!!!!!!!! EVENTOS RECIBIDOS!!!! %d",events.height);
+        //printf("\n----------------- ENCODING: %s ------------------------\n",events.encoding);
+        //if(count>0){
+          for (long unsigned int j=0; j < sizeof(events.events); j++)
+          {
+            /*uint16_t *x=0;
+            uint16_t *y=0;
+            event_array_msgs::mono::decode_x_y_p(&events.events[j],x,y);
+            printf("| %d , %d",*x,*y);*/
+            printf("| %d ",events.events[j]);
+          }
+
+          //printf("\n---------------------------------------------------------------\n");
+          //count--;
+        //}
     }
 
     void depth_img_callback(const sensor_msgs::msg::Image & imgraw) const

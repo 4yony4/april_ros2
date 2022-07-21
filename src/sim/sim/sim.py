@@ -8,7 +8,7 @@ from std_msgs.msg import String
 from std_msgs.msg import Int32MultiArray
 from std_msgs.msg import Float32MultiArray
 
-from sim_sem_interfaces.msg import NeuromorphicSensing
+from april_msgs.msg import NeuromorphicSensing
 
 class SIM(Node):
 
