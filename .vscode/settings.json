@@ -318,7 +318,8 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "*.idl": "cpp"
+        "*.idl": "cpp",
+        "event_array_msgs": "cpp"
     },
     "python.analysis.extraPaths": [
         "/home/jbarmagen/Dev/ROS2/april_ros2/install/sim_sem_interfaces/lib/python3.8/site-packages",
@@ -562,5 +563,6 @@
         "/home/jbarmagen/ros2_galactic/install/ament_clang_tidy/lib/python3.8/site-packages",
         "/home/jbarmagen/ros2_galactic/build/ament_clang_format",
         "/home/jbarmagen/ros2_galactic/install/ament_clang_format/lib/python3.8/site-packages"
-    ]
+    ],
+    "cmake.configureOnOpen": true
 }
