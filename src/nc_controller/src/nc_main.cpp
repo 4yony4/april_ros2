@@ -14,17 +14,22 @@ using std::placeholders::_1;
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/videoio.hpp>
-#include <opencv2/highgui.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#if CV_MAJOR_VERSION >= 4
+#include <opencv2/highgui/highgui_c.h>
+#endif
 #include <opencv2/video.hpp>
 
 static const std::string IMAGE_TOPIC = "/camera/color/image_raw";
 static const std::string EVENTS_TOPIC = "/event_camera/events";
+static const std::string NC_IMAGE_TOPIC = "/image";
 //static const std::string IMAGE_TOPIC = "/camera/depth/image_rect_raw";
 using namespace cv;
 using namespace cv_bridge;
 
 
 int count=100;
+bool blWindowCreated=false;
 
 class nc_main : public rclcpp::Node
 {
@@ -54,14 +59,27 @@ class nc_main : public rclcpp::Node
       subscription_events = this->create_subscription<event_array_msgs::msg::EventArray>(
       EVENTS_TOPIC, qos, std::bind(&nc_main::events_camera_data, this, _1));
 
+      nc_subscription = this->create_subscription<sensor_msgs::msg::Image>
+      (NC_IMAGE_TOPIC, 10, std::bind(&nc_main::event_camera_images, this, _1));
+
       publisher_ = this->create_publisher<sensor_msgs::msg::Image>("nc_controller/main/proc_img", 10);
        //pBackSub = createBackgroundSubtractorKNN();
 
       //run_nc_camera();
 
+
+
     }
 
   private:
+
+  void create_window(const std::string &window_name, const unsigned int &sensor_width,
+                                           const unsigned int &sensor_height, const int &shift_x, const int &shift_y) {
+      cv::namedWindow(window_name, CV_GUI_EXPANDED);
+      cv::resizeWindow(window_name, sensor_width, sensor_height);
+      // move needs to be after resize on apple, otherwise the window stacks
+      cv::moveWindow(window_name, shift_x, shift_y);
+  }
 
     void run_nc_camera(){ 
 
@@ -110,24 +128,51 @@ class nc_main : public rclcpp::Node
       // the camera will be deinitialized automatically in VideoCapture destructor
     }
 
+    void event_camera_images(const sensor_msgs::msg::Image & img_events) const
+    {
+      //printf("HEY NEW IMAGE> ");
+    }
 
-    void events_camera_data(const event_array_msgs::msg::EventArray & events) const
+    void events_camera_data(const event_array_msgs::msg::EventArray &ea) const
     {
       
       
         //printf("!!!!!!!! EVENTOS RECIBIDOS!!!! %d",events.height);
         //printf("\n----------------- ENCODING: %s ------------------------\n",events.encoding);
         //if(count>0){
-          for (long unsigned int j=0; j < sizeof(events.events); j++)
+          /*for (long unsigned int j=0; j < sizeof(ea.events); j++)
           {
-            /*uint16_t *x=0;
-            uint16_t *y=0;
-            event_array_msgs::mono::decode_x_y_p(&events.events[j],x,y);
-            printf("| %d , %d",*x,*y);*/
-            printf("| %d ",events.events[j]);
-          }
+            uint16_t *x;
+            uint16_t *y;
+            event_array_msgs::mono::decode_x_y_p(&ea.events[j],x,y,);
+            //printf("| %d , %d",*x,*y);
+            printf("| %d ",ea.events[j]);
+          }*/
+          //uint16_t *x;
+          //uint16_t *y;
+           //event_array_msgs::mono::decode_x_y_p(ea.events,x,y);
+           if(!blWindowCreated){
+              const unsigned int &sensor_width = ea.width;
+              const unsigned int &sensor_height = ea.height;
+              const std::string &window_name = "CD EVENT TEST";
+              //printf("width: %d x height: %d\n",ea.width,ea.height);
+              cv::namedWindow(window_name, CV_GUI_EXPANDED);
+              cv::resizeWindow(window_name, sensor_width, sensor_height);
+              // move needs to be after resize on apple, otherwise the window stacks
+              cv::moveWindow(window_name, 0, 0);
+              //create_window(window_name,sensor_width,sensor_height,0,0);
+              //create_window("CD Events", 640,480, 0, 0);
+              // Initialize CD frame generator
+              //cd_frame_generator_.init(sensor_width, sensor_height);
+              //cd_frame_generator_.set_display_accumulation_time_us(display_acc_time_);
+              // Start CD frame generator thread
+              //cd_frame_generator_.start();
+           }
 
-          //printf("\n---------------------------------------------------------------\n");
+          
+          //printf("Events size: %ld\n",sizeof(ea.events));
+
+          //printf("---------------------------------------------------------------\n");
           //count--;
         //}
     }
@@ -207,6 +252,7 @@ class nc_main : public rclcpp::Node
     }
 
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
+    rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr nc_subscription;
     rclcpp::Subscription<event_array_msgs::msg::EventArray>::SharedPtr subscription_events;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
     Ptr<BackgroundSubtractor> pBackSub;
