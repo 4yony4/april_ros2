@@ -45,12 +45,12 @@ class SIM(Node):
         self.subscription_nc
         self.subscription_nv
 
-    def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % msg.data)
+    def listener_callback(self, msg):{}
+        #self.get_logger().info('I heard: "%s"' % msg.data)
 
-    def listener_callback_NC(self, msg):
-        self.get_logger().info('NC I heard: "%s"' % msg.point1_speed)
-        self.get_logger().info('NC I heard: "%s"' % msg.point2_speed)
+    def listener_callback_NC(self, msg):{}
+        #self.get_logger().info('NC I heard: "%s"' % msg.point1_speed)
+        #self.get_logger().info('NC I heard: "%s"' % msg.point2_speed)
 
 def main(args=None):
     rclpy.init(args=args)
