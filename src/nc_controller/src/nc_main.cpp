@@ -30,6 +30,9 @@ using namespace cv_bridge;
 
 int count=100;
 bool blWindowCreated=false;
+bool tempbool=false;
+
+static const std::string OPENCV_WINDOW = "Image_window";
 
 class nc_main : public rclcpp::Node
 {
@@ -67,7 +70,7 @@ class nc_main : public rclcpp::Node
 
       //run_nc_camera();
 
-
+      cv::namedWindow(OPENCV_WINDOW);
 
     }
 
@@ -130,7 +133,65 @@ class nc_main : public rclcpp::Node
 
     void event_camera_images(const sensor_msgs::msg::Image & img_events) const
     {
-      //printf("HEY NEW IMAGE> ");
+      cv_bridge::CvImagePtr cv_ptr;
+       try
+        {
+            cv_ptr = cv_bridge::toCvCopy(img_events, img_events.encoding);
+        }
+        catch (cv_bridge::Exception& e)
+        {
+            RCLCPP_ERROR(this->get_logger(), "cv_bridge exception: %s", e.what());
+            return;
+        }
+
+        //if (cv_ptr->image.rows > 60 && cv_ptr->image.cols > 60)
+        //    cv::circle(cv_ptr->image, cv::Point(50, 50), 10, CV_RGB(255,0,0));
+        printImageValues(cv_ptr->image);
+        cv::imshow(OPENCV_WINDOW, cv_ptr->image);
+        //cv::drawContours()
+        cv::waitKey(3);
+      
+
+    }
+
+    
+
+    void printImageValues(cv::Mat mat) const{
+      //std::vector<std::vector<cv::Point> > contours;
+      //std::vector<cv::Vec4i> hierarchy;
+      //cv::findContours(mat,contours,hierarchy,RETR_EXTERNAL,CHAIN_APPROX_NONE,0);
+
+      /*if(tempbool==false){
+        //tempbool=true;
+        for(int y=0;y<mat.rows;y++)
+        {
+          for(int x=0;x<mat.cols;x++)
+          {
+            //printf("----------->>>>>>   %d",mat.at);
+
+              // get pixel
+            Vec3b & color = mat.at<Vec3b>(y,x);
+            if(color[0] !=255 && color[1]!=255 && color[2]!=255){
+              //color[0]=13;
+              //color[1]=13;
+              //color[2]=13;
+            }
+            //printf("(%d , %d , %d)",color[0],color[1],color[2]);
+            //printf("----------->>>>>>   %d",color[1]);
+            //printf("----------->>>>>>   %d",color[2]);
+              // ... do something to the color ....
+              //color[0] = 13;
+              //color[1] = 13;
+              //color[2] = 13;
+
+              // set pixel
+              //image.at<Vec3b>(Point(x,y)) = color;
+              //if you copy value
+              
+          }
+          //printf("\n");
+       }
+      }*/
     }
 
     void events_camera_data(const event_array_msgs::msg::EventArray &ea) const
@@ -151,7 +212,7 @@ class nc_main : public rclcpp::Node
           //uint16_t *x;
           //uint16_t *y;
            //event_array_msgs::mono::decode_x_y_p(ea.events,x,y);
-           if(!blWindowCreated){
+           /*if(!blWindowCreated){
               const unsigned int &sensor_width = ea.width;
               const unsigned int &sensor_height = ea.height;
               const std::string &window_name = "CD EVENT TEST";
@@ -160,6 +221,8 @@ class nc_main : public rclcpp::Node
               cv::resizeWindow(window_name, sensor_width, sensor_height);
               // move needs to be after resize on apple, otherwise the window stacks
               cv::moveWindow(window_name, 0, 0);
+
+              blWindowCreated=true;
               //create_window(window_name,sensor_width,sensor_height,0,0);
               //create_window("CD Events", 640,480, 0, 0);
               // Initialize CD frame generator
@@ -167,7 +230,7 @@ class nc_main : public rclcpp::Node
               //cd_frame_generator_.set_display_accumulation_time_us(display_acc_time_);
               // Start CD frame generator thread
               //cd_frame_generator_.start();
-           }
+           }*/
 
           
           //printf("Events size: %ld\n",sizeof(ea.events));
