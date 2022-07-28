@@ -25,7 +25,7 @@ There will be also INTERFACE Package, which will include as an independent packa
 Later on, all the PACKAGES included here will be deployed by a DOCKER system inside the APRIL environment.
 
 ## ROS2 - GALACTIC INSTALLATION
-In the latest version we followed the instructions in Galactic official site for ROS2 HUMBLE installation. This requires to have Ubuntu Linux 22, BUT it also upgrades the SetupTools in python to version 59, and for now we need to maintain the version at no more than 58 (See last section bellow)
+In the latest version we followed the instructions in Galactic official site for ROS2 GALACTIC installation. This requires to have Ubuntu Linux 22, BUT it also upgrades the SetupTools in python to version 59, and for now we need to maintain the version at no more than 58 (See last section bellow)
 
 Instructions at: https://docs.ros.org/en/galactic/index.html
 
