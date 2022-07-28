@@ -16,3 +16,9 @@ For now as input topics being used in this controller we have the:
 ## Output topics
 
 * /nc_controller/detected_human_motion -> Which for now only sends the human detected motion (see april_msgs/msg/human_motion.h) for more information on the message structure.
+
+
+## Development process
+
+To add new code is recomended to use either the SRC folder for C++ files or the appropiate folder for Python scripts. The libraries that this system uses are defined in the metavision_ros_diver repo in the web, also in the Prophesee page as well as in the event_ros_tools repo.
+
