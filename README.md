@@ -2,7 +2,7 @@
 
 # Table of Contents  
 * [SOCIAL INTERACTION MODULE](/src/sim/README.md)
-* [SECURITY AND ERGONOMICS MANAGER](/src/sem/README.md)  
+* [SAFETY AND ERGONOMICS MANAGER](/src/sem/README.md)  
 * [NUROMORPHIC CAMERA CONTROLLER](/src/nc_controller/README.md)  
 * [FATIGUE PACKAGE](/src/fatigue/README.md)  
 * [GRASP PACKAGE](/src/grasp/README.md)  
