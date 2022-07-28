@@ -7,7 +7,7 @@
 * [FATIGUE PACKAGE](/src/fatigue/README.md)  
 * [GRASP PACKAGE](/src/grasp/README.md)  
 * [MOVEMENT PACKAGE](/src/mov/README.md)  
-* [APRIL MESSAGES](/src/april_msgs/README.md)
+* [APRIL MESSAGES](https://github.com/aprilprojecteu/april_msgs/tree/galactic/msg_ros1/README.md)
 
 ## Contact
 [Jonathan Z. Bar-Magen Numhauser](mailto:jonathan.barmagen@iit.it)\
