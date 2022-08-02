@@ -7,6 +7,5 @@ log
 scripts/install
 scripts/build
 scripts/log
-bag_files/
 #src/nc_controller
 #src/realsense-ros
