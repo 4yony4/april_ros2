@@ -18,6 +18,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(event_array_msgs REQUIRED)
+find_package(april_msgs REQUIRED)
 
 
 # uncomment the following section in order to fill in
@@ -25,7 +26,7 @@ find_package(event_array_msgs REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(nc_main src/nc_main.cpp)
-ament_target_dependencies(nc_main rclcpp std_msgs sensor_msgs cv_bridge event_array_msgs OpenCV)
+ament_target_dependencies(nc_main rclcpp std_msgs sensor_msgs cv_bridge event_array_msgs OpenCV april_msgs)
 #add_executable(listener src/subscriber_member_function.cpp)
 #ament_target_dependencies(listener rclcpp std_msgs)
 
