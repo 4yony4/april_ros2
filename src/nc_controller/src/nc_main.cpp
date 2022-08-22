@@ -9,7 +9,7 @@
 #include "sensor_msgs/msg/image.hpp"
 #include "event_array_msgs/msg/event_array.hpp"
 #include "event_array_msgs/decode.h"
-#include "april_msgs/msg/human_motion.h"
+#include "april_msgs/msg/human_motion.hpp"
 using std::placeholders::_1;
 
 #include <opencv2/imgcodecs.hpp>
@@ -70,7 +70,7 @@ class nc_main : public rclcpp::Node
 
       publisher_ = this->create_publisher<sensor_msgs::msg::Image>("nc_controller/main/proc_img", 10);
       
-      publisher_human_motion = this->create_publisher<april_msgs__msg__HumanMotion>(DETECTED_HUMAN_MOTION, 10);
+      publisher_human_motion = this->create_publisher<april_msgs::msg::HumanMotion>(DETECTED_HUMAN_MOTION, 10);
        //pBackSub = createBackgroundSubtractorKNN();
 
       //run_nc_camera();
@@ -160,18 +160,19 @@ class nc_main : public rclcpp::Node
     }
 
     void publish_human_motion() const{
-      april_msgs__msg__HumanMotion motion;
-      motion.hand_position.data="20";
-      motion.hand_velocity.data="20";
-      motion.hand_acceleration.data="20";
+      april_msgs::msg::HumanMotion motion = april_msgs::msg::HumanMotion();
 
-      motion.body_position.data="20";
-      motion.body_velocity.data="20";
-      motion.body_acceleration.data="20";
+      motion.set__hand_position("20");
+      motion.set__hand_velocity("20");
+      motion.set__hand_acceleration("20");
 
-      motion.tools_position.data="20";
-      motion.tools_velocity.data="20";
-      motion.tools_acceleration.data="20";
+      motion.set__body_position("20");
+      motion.set__body_velocity("20");
+      motion.set__body_acceleration("20");
+
+      motion.set__tools_position("20");
+      motion.set__tools_velocity("20");
+      motion.set__tools_acceleration("20");
       
       if(publisher_human_motion->get_subscription_count() !=0){
         publisher_human_motion->publish(motion);
@@ -341,7 +342,7 @@ class nc_main : public rclcpp::Node
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr nc_subscription;
     rclcpp::Subscription<event_array_msgs::msg::EventArray>::SharedPtr subscription_events;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
-    rclcpp::Publisher<april_msgs__msg__HumanMotion>::SharedPtr publisher_human_motion;
+    rclcpp::Publisher<april_msgs::msg::HumanMotion>::SharedPtr publisher_human_motion;
     Ptr<BackgroundSubtractor> pBackSub;
     Mat frame,fgMask;
 };
