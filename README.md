@@ -4,6 +4,7 @@
 * [SOCIAL INTERACTION MODULE](/src/sim/README.md)
 * [SAFETY AND ERGONOMICS MANAGER](/src/sem/README.md)  
 * [NUROMORPHIC CAMERA CONTROLLER](/src/nc_controller/README.md)  
+* [RGB CAMERA PACKAGE](/src/rgb_camera/README.md)
 * [FATIGUE PACKAGE](/src/fatigue/README.md)  
 * [GRASP PACKAGE](/src/grasp/README.md)  
 * [MOVEMENT PACKAGE](/src/mov/README.md)  
