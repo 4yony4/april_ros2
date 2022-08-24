@@ -1,14 +1,14 @@
 # IIT - APRIL SEM SIM GALACTIC WORKSPACE
 
 # Table of Contents  
-* [SOCIAL INTERACTION MODULE](/src/sim/README.md)
-* [SAFETY AND ERGONOMICS MANAGER](/src/sem/README.md)  
-* [NUROMORPHIC CAMERA CONTROLLER](/src/nc_controller/README.md)  
+* [SOCIAL INTERACTION MODULE](/src/sim/)
+* [SAFETY AND ERGONOMICS MANAGER](/src/sem/)  
+* [NUROMORPHIC CAMERA CONTROLLER](/src/nc_controller/)  
 * [RGB CAMERA PACKAGE](/src/rgb_camera/)
-* [FATIGUE PACKAGE](/src/fatigue/README.md)  
-* [GRASP PACKAGE](/src/grasp/README.md)  
-* [MOVEMENT PACKAGE](/src/mov/README.md)  
-* [APRIL MESSAGES](https://github.com/aprilprojecteu/april_msgs/tree/galactic/msg_ros1/README.md)
+* [FATIGUE PACKAGE](/src/fatigue/)  
+* [GRASP PACKAGE](/src/grasp/)  
+* [MOVEMENT PACKAGE](/src/mov/)  
+* [APRIL MESSAGES](https://github.com/aprilprojecteu/april_msgs/tree/galactic/msg_ros1/)
 
 ## Contact
 [Jonathan Z. Bar-Magen Numhauser](mailto:jonathan.barmagen@iit.it)\
