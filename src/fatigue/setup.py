@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'dummy_fa = fatigue.dummy_fa:main',
+            #'dummy_fa = fatigue.dummy_fa:main',
+            'detection = fatigue.detection:main',
         ],
     },
 )
