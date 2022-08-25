@@ -3,3 +3,4 @@
 - git: {local-name: event_array_msgs, uri: 'https://github.com/berndpfrommer/event_array_msgs.git', version: 'master'}
 - git: {local-name: metavision_ros_driver, uri: 'https://github.com/berndpfrommer/metavision_ros_driver', version: 'master'}
 - git: {local-name: april_msgs, uri: 'https://github.com/aprilprojecteu/april_msgs/', version: 'galactic'}
+- git: {local-name: event_ros_tools, uri: 'https://github.com/ZiyunClaudeWang/event_ros_tools.git', version: 'master'}
