@@ -10,6 +10,8 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(OpenCV COMPONENTS core highgui video imgproc rgbd objdetect REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -22,7 +24,7 @@ target_include_directories(cam_main PUBLIC
   $<INSTALL_INTERFACE:include>)
 target_compile_features(cam_main PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-ament_target_dependencies(cam_main rclcpp)
+ament_target_dependencies(cam_main rclcpp OpenCV cv_bridge)
 
 install(TARGETS cam_main
   DESTINATION lib/${PROJECT_NAME})
