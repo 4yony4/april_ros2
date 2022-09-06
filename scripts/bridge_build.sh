@@ -11,6 +11,11 @@ source ${ROS1_INSTALL_PATH}/setup.bash
 #ROS2 Environment init
 source ${ROS2_INSTALL_PATH}/setup.bash
 
+#Build april_msgs for ROS1 and ROS2
+cd ~/Dev/ROS/april_ros/
+catkin_make
+cd ~/Dev/ROS2/april_ros2/
+colcon build --packages-select april_msgs
 
 #Overlay workspaces
 source ~/Dev/ROS/april_ros/devel/setup.bash
