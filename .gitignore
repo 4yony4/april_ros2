@@ -1,6 +1,13 @@
 src/install
 src/build
 src/log
+src/.rosinstall
+src/dvs_msgs
+src/prophesee_event_msgs
+src/event_array_msgs
+src/metavision_ros_driver
+src/april_msgs
+src/event_ros_tools
 install
 build
 log
