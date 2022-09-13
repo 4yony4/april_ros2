@@ -11,6 +11,6 @@ gnome-terminal --title="ROS1 <--> ROS2 Bridge" --tab -- bash -c "source run_brid
 gnome-terminal --title="YARP TALKER" --tab -- bash -c "sleep 2; cd ~/Dev/yarp/talker/;./talker; exec bash -i"
 
 #START YARP TALKER
-gnome-terminal --title="APRIL ROS2 RECEIVER" --tab -- bash -c "sleep 2; cd ~/Dev/ROS2/april_ros2;ros2 run yarp_com_pkg yarp_com; exec bash -i"
+gnome-terminal --title="APRIL ROS2 RECEIVER" --tab -- bash -c "sleep 2;cd ~/Dev/ROS2/april_ros2;source install/local_setup.sh;ros2 run yarp_com_pkg yarp_com; exec bash -i"
 
 
