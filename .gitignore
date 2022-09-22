@@ -14,5 +14,6 @@ log
 scripts/install
 scripts/build
 scripts/log
+src/.rosinstall
 #src/nc_controller
 #src/realsense-ros
