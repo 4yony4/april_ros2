@@ -13,7 +13,7 @@ public:
   : Node("minimal_subscriber")
   {
     subscription_ = this->create_subscription<yarp_ros_interfaces::msg::Vjxoutput>(    // CHANGE
-      "yarpinfo", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      "output2ros", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
   }
 
 private:
