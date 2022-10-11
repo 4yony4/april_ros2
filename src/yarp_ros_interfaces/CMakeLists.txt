@@ -22,6 +22,7 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Yarpinfo.msg
+  msg/Vjxoutput.msg
   DEPENDENCIES builtin_interfaces std_msgs
   ADD_LINTER_TESTS)
 
